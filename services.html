@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GUIA · Services</title>
+  <meta name="description" content="Servicios del proyecto GUIA.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    .service-package {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--blue);
+      color: #fff;
+      font-size: .72rem;
+      font-weight: 900;
+      letter-spacing: .06em;
+    }
+
+    .service-package[data-pt="PT1"] { background: var(--red); }
+    .service-package[data-pt="PT2"] { background: var(--blue); }
+    .service-package[data-pt="PT3"] { background: var(--cyan); }
+    .service-package[data-pt="PT4"] { background: var(--gold); color: var(--ink); }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="./index.html">
+        <img src="assets/img/guia-logo.jpeg" alt="GUIA logo">
+        <span>
+          <strong>GUIA</strong>
+          <small>Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="./index.html" data-i18n="home">Home</a></li>
+        <li><a href="./team.html" data-i18n="team">Team</a></li>
+        <li><a href="./research.html" data-i18n="research">Research</a></li>
+        <li><a class="active" href="./services.html" data-i18n="services">Services</a></li>
+        <li>
+          <div class="lang-switch">
+            <button data-lang="es" type="button">ES</button>
+            <button data-lang="en" type="button">EN</button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy full-width">
+        <p class="eyebrow">Services</p>
+
+        <h1 data-i18n="servicesTitle">
+          Catálogo de servicios de IA y valor añadido
+        </h1>
+
+        <p class="lead" data-i18n="servicesLead">
+          Servicios diseñados para explotar documentación universitaria estructurada, trazable y conectada.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">Catalogue</p>
+          <h2>Servicios de valor añadido</h2>
+        </div>
+
+        <label class="search-label">
+          <span data-i18n="search">Buscar</span>
+          <input id="service-search" type="search" placeholder="QA, RDF, grafo...">
+        </label>
+      </div>
+
+      <div class="cards service-grid" id="service-grid">
+        <article class="card service" data-keywords="qa preguntas lenguaje natural evidencias documents pt3">
+          <span class="service-package" data-pt="PT3">PT3</span>
+          <h3 data-i18n="qaTitle">Question Answering</h3>
+          <p data-i18n="qaText">Consultas en lenguaje natural sobre documentación universitaria con respuestas apoyadas en evidencias.</p>
+          <a href="#" data-i18n="goService">Ir al servicio →</a>
+        </article>
+
+        <article class="card service" data-keywords="semantic search multilingue conceptos multilingual pt3">
+          <span class="service-package" data-pt="PT3">PT3</span>
+          <h3 data-i18n="semanticTitle">Búsqueda conceptual multilingüe</h3>
+          <p data-i18n="semanticText">Localiza conceptos equivalentes y recursos relacionados aunque cambie el idioma o la terminología.</p>
+          <a href="#" data-i18n="goService">Ir al servicio →</a>
+        </article>
+
+        <article class="card service" data-keywords="api json rdf datos documents pt2">
+          <span class="service-package" data-pt="PT2">PT2</span>
+          <h3 data-i18n="apiTitle">API de documentos estructurados</h3>
+          <p data-i18n="apiText">Expone documentos enriquecidos para integraciones, automatización y reutilización en JSON/RDF.</p>
+          <a href="#" data-i18n="goService">Ir al servicio →</a>
+        </article>
+
+        <article class="card service" data-keywords="knowledge graph sparql ontologias grafo pt2">
+          <span class="service-package" data-pt="PT2">PT2</span>
+          <h3 data-i18n="graphTitle">Explorador del grafo de conocimiento</h3>
+          <p data-i18n="graphText">Navega relaciones entre normativas, títulos, asignaturas, competencias y entidades académicas.</p>
+          <a href="#" data-i18n="goService">Ir al servicio →</a>
+        </article>
+
+        <article class="card service" data-keywords="viewer visor metadatos anotacion document intelligence pt2 pt3">
+          <span class="service-package" data-pt="PT2">PT2 · PT3</span>
+          <h3 data-i18n="viewerTitle">Visor documental enriquecido</h3>
+          <p data-i18n="viewerText">Lectura asistida con entidades, secciones y metadatos estructurados extraídos automáticamente.</p>
+          <a href="#" data-i18n="goService">Ir al servicio →</a>
+        </article>
+      </div>
+
+      <p class="empty-state" hidden data-i18n="noServices">
+        No hay servicios que coincidan con la búsqueda.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logos">
+        <img src="assets/img/upm-logo.png" alt="Universidad Politécnica de Madrid">
+        <img src="assets/img/logo-cam.png" alt="Comunidad de Madrid">
+      </div>
+
+      <p class="funding-text" data-i18n="funding_es">
+        Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA (M230020126A-AJCA)
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
