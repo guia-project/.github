@@ -41,8 +41,8 @@ const translations = {
 		semanticText: 'Localiza conceptos equivalentes y recursos relacionados aunque cambie el idioma o la terminología.',
 		apiTitle: 'API de documentos estructurados',
 		apiText: 'Expone documentos enriquecidos para integraciones, automatización y reutilización en JSON/RDF.',
-		graphTitle: 'Explorador del grafo de conocimiento',
-		graphText: 'Navega relaciones entre normativas, títulos, asignaturas, competencias y entidades académicas.',
+		graphTitle: 'Grafo de conocimiento &amp; API de documentos estructurados',
+		graphText: 'Expone guías docentes de manera estructurada para integraciones, automatización y reutilización en RDF. Permite explorar títulos, asignaturas, competencias y entidades académicas usando estándares del W3C.',
 		viewerTitle: 'Visor documental enriquecido',
 		viewerText: 'Lectura asistida con entidades, secciones y metadatos estructurados extraídos automáticamente.',
 		goService: 'Ir al servicio →',
@@ -50,7 +50,13 @@ const translations = {
 		funding: 'Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes',
 		publicationsEyebrow: "Publications",
 		publicationsTitle: "Publicaciones científicas",
-		publicationsLead: "Producción científica vinculada a los paquetes de trabajo del proyecto GUIA."
+		publicationsLead: "Producción científica vinculada a los paquetes de trabajo del proyecto GUIA.",
+		ontologyTitle: "Ontología para guías docentes.",
+		ontologyText: "Modela las guías docentes mediante axiomas OWL usando estándares del W3C.",
+		gestorDocenteTitle: "Plataforma para cumplimentar guías docentes.",
+		gestorDocenteText: "Plataforma para cumplimentación de guias docentes, personalización con imagen corporativa y posibilidad de exportar los documentos en PDF o RDF anotados con la ontología del proyecto GUIA.",
+		cronoexamTitle: "Plataforma para creación y organización de exámenes de la UPM.",
+		cronoexamText: "Plataforma para crear y organizar los exámenes de la UPM. Cronoexam no solo permite que los responsables de de alta examenes, sino que permite visualizarlos con mapas de calor para una distribución óptima de los mismos. También permite visualizarlos y exportarlos como eventos de calendario."
 	},
 	en: {
 		home: 'Home',
@@ -103,8 +109,14 @@ const translations = {
 		funding: 'Action funded by the Community of Madrid under the Agreement between the Community of Madrid and the Universidad Politécnica de Madrid for the granting of a direct subsidy to foster and promote research and technology transfer 2023-2026, Line of Action A, Emerging Doctors',
 		publicationsEyebrow: "Publications",
 		publicationsTitle: "Scientific publications",
-		publicationsLead: "Scientific output linked to the work packages of the GUIA project."
-
+		publicationsLead: "Scientific output linked to the work packages of the GUIA project.",
+		ontologyTitle: "Ontology for course guides.",
+		ontologyText: "Models course guides through OWL axioms using W3C standards.",
+		gestorDocenteTitle: "Platform for completing course guides.",
+		gestorDocenteText: "Platform for completing course guides, customisable with institutional branding, and with the option to export documents as PDF or RDF annotated with the GUIA project ontology.",
+		cronoexamTitle: "Platform for creating and organising UPM exams.",
+		cronoexamText: "Platform for creating and organising UPM exams. Cronoexam not only allows coordinators to register exams, but also makes it possible to visualise them using heat maps to ensure their optimal distribution. It also allows exams to be viewed and exported as calendar events."
+		
 	}
 };
 
