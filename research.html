@@ -1,10 +1,340 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" vocab="https://schema.org/" typeof="CollectionPage">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GUIA · Research</title>
-  <meta name="description" content="Research del proyecto GUIA.">
+
+  <title property="name">GUIA · Research</title>
+  <meta property="description" name="description" content="Research del proyecto GUIA.">
+  <meta property="inLanguage" content="es">
+  <meta property="url" content="https://guia-project.github.io/research.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://guia-project.github.io/#website",
+        "name": "GUIA",
+        "description": "Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable",
+        "url": "https://guia-project.github.io/",
+        "inLanguage": "es",
+        "publisher": {
+          "@id": "https://www.upm.es/#organization"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://guia-project.github.io/research.html#webpage",
+        "name": "GUIA · Research",
+        "description": "Research del proyecto GUIA.",
+        "url": "https://guia-project.github.io/research.html",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@id": "https://guia-project.github.io/#website"
+        },
+        "about": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        },
+        "mainEntity": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        },
+        "hasPart": [
+          {
+            "@id": "https://guia-project.github.io/research.html#work-packages"
+          },
+          {
+            "@id": "https://guia-project.github.io/research.html#publications"
+          }
+        ]
+      },
+      {
+        "@type": "ResearchProject",
+        "@id": "https://guia-project.github.io/#guia-project",
+        "name": "GUIA",
+        "alternateName": "Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable",
+        "identifier": "M230020126A-AJCA",
+        "url": "https://guia-project.github.io/",
+        "description": "GUIA impulsa una infraestructura de datos y un ecosistema de servicios de inteligencia artificial para hacer la documentación universitaria más accesible, interoperable, estructurada y útil para estudiantes, personal técnico y responsables institucionales.",
+        "keywords": [
+          "documentación universitaria",
+          "datos FAIR",
+          "grafos de conocimiento",
+          "inteligencia artificial",
+          "datos semánticos",
+          "interoperabilidad",
+          "universidad"
+        ],
+        "parentOrganization": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "funder": {
+          "@id": "https://www.comunidad.madrid/#organization"
+        },
+        "funding": {
+          "@id": "https://guia-project.github.io/#grant"
+        },
+        "hasPart": [
+          {
+            "@id": "https://guia-project.github.io/research.html#pt1"
+          },
+          {
+            "@id": "https://guia-project.github.io/research.html#pt2"
+          },
+          {
+            "@id": "https://guia-project.github.io/research.html#pt3"
+          },
+          {
+            "@id": "https://guia-project.github.io/research.html#pt4"
+          }
+        ],
+        "subjectOf": {
+          "@id": "https://guia-project.github.io/research.html#publications"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://guia-project.github.io/research.html#work-packages",
+        "name": "Paquetes de trabajo del proyecto GUIA",
+        "description": "Hoja de ruta del proyecto GUIA organizada en paquetes de trabajo sobre análisis del dominio, infraestructura tecnológica, servicios inteligentes y transferencia.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://guia-project.github.io/research.html#pt1"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://guia-project.github.io/research.html#pt2"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://guia-project.github.io/research.html#pt3"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@id": "https://guia-project.github.io/research.html#pt4"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://guia-project.github.io/research.html#pt1",
+        "name": "PT1 · Identificación y conceptualización de problemáticas",
+        "termCode": "PT1",
+        "description": "Taxonomización y conceptualización ontológica de problemas recurrentes vinculados a la documentación universitaria.",
+        "position": 1
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://guia-project.github.io/research.html#pt2",
+        "name": "PT2 · Desarrollo de GUIA",
+        "termCode": "PT2",
+        "description": "Construcción de la infraestructura de datos, API, grafo de conocimiento, plataforma de publicación y catálogo.",
+        "position": 2
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://guia-project.github.io/research.html#pt3",
+        "name": "PT3 · Servicios basados en IA",
+        "termCode": "PT3",
+        "description": "Demostradores para consultas en lenguaje natural, recuperación conceptual y reutilización de conocimiento.",
+        "position": 3
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://guia-project.github.io/research.html#pt4",
+        "name": "PT4 · Difusión, diseminación y captación",
+        "termCode": "PT4",
+        "description": "Publicación de resultados, captación de universidades y consolidación de una comunidad colaborativa.",
+        "position": 4
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://guia-project.github.io/research.html#publications",
+        "name": "Publicaciones científicas del proyecto GUIA",
+        "description": "Producción científica vinculada a los paquetes de trabajo del proyecto GUIA.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://guia-project.github.io/research.html#publication-nexa-ace",
+              "name": "NEXA-ACE: corrección automática de prácticas de programación mediante evaluación funcional asistida por LLM",
+              "author": [
+                { "@type": "Person", "name": "J. Gayoso-Cabada" },
+                { "@type": "Person", "name": "A. Cimmino" },
+                { "@type": "Person", "name": "C. Badenes-Olmedo" },
+                { "@type": "Person", "name": "S. Ruiz-Villafranca" }
+              ],
+              "datePublished": "2026",
+              "isPartOf": {
+                "@type": "CreativeWork",
+                "name": "XXXII Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2026)"
+              },
+              "about": {
+                "@id": "https://guia-project.github.io/research.html#pt3"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://guia-project.github.io/research.html#publication-mira",
+              "name": "MIRA: corrección automática, revisión y gestión de reclamaciones en exámenes tipo test universitarios",
+              "author": [
+                { "@type": "Person", "name": "J. Gayoso-Cabada" },
+                { "@type": "Person", "name": "C. Badenes-Olmedo" },
+                { "@type": "Person", "name": "A. Cimmino" },
+                { "@type": "Person", "name": "R. Mariño" }
+              ],
+              "datePublished": "2026",
+              "isPartOf": {
+                "@type": "CreativeWork",
+                "name": "XXXII Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2026)"
+              },
+              "about": {
+                "@id": "https://guia-project.github.io/research.html#pt3"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://guia-project.github.io/research.html#publication-improving-odrl",
+              "name": "Improving ODRL 2.2: current limitations and theoretical solutions",
+              "author": [
+                { "@type": "Person", "name": "A. Cimmino" },
+                { "@type": "Person", "name": "N. Fornara" }
+              ],
+              "datePublished": "2025",
+              "url": "https://ceur-ws.org/Vol-3977/OPAL2025-6.pdf",
+              "encoding": {
+                "@type": "MediaObject",
+                "contentUrl": "https://ceur-ws.org/Vol-3977/OPAL2025-6.pdf",
+                "encodingFormat": "application/pdf"
+              },
+              "isPartOf": {
+                "@type": "CreativeWork",
+                "name": "ODRL and Beyond: Practical Applications and Challenges for Policy-base Access and Usage Control. OPAL 2025 Co-located with the Extended Semantic Web Conference"
+              },
+              "about": {
+                "@id": "https://guia-project.github.io/research.html#pt1"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "ScholarlyArticle",
+              "@id": "https://guia-project.github.io/research.html#publication-odre-policy-directory-service",
+              "name": "ODRE Policy Directory Service: A Trust-Based ODRL Service for Decentralised and Policy-Aware Ecosystems",
+              "author": [
+                { "@type": "Person", "name": "L. Martín-Núñez" },
+                { "@type": "Person", "name": "A. Cimmino" },
+                { "@type": "Person", "name": "R. García-Castro" }
+              ],
+              "datePublished": "2025",
+              "url": "https://ceur-ws.org/Vol-3977/OPAL2025-5.pdf",
+              "encoding": {
+                "@type": "MediaObject",
+                "contentUrl": "https://ceur-ws.org/Vol-3977/OPAL2025-5.pdf",
+                "encodingFormat": "application/pdf"
+              },
+              "isPartOf": {
+                "@type": "CreativeWork",
+                "name": "ODRL and Beyond: Practical Applications and Challenges for Policy-base Access and Usage Control. OPAL 2025 Co-located with the Extended Semantic Web Conference"
+              },
+              "about": {
+                "@id": "https://guia-project.github.io/research.html#pt3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "@id": "https://www.upm.es/#organization",
+        "name": "Universidad Politécnica de Madrid",
+        "alternateName": "UPM",
+        "url": "https://www.upm.es/",
+        "logo": "https://guia-project.github.io/assets/img/upm-logo.png"
+      },
+      {
+        "@type": "GovernmentOrganization",
+        "@id": "https://www.comunidad.madrid/#organization",
+        "name": "Comunidad de Madrid",
+        "url": "https://www.comunidad.madrid/",
+        "logo": "https://guia-project.github.io/assets/img/logo-cam.png"
+      },
+      {
+        "@type": "MonetaryGrant",
+        "@id": "https://guia-project.github.io/#grant",
+        "name": "Doctores Emergentes - Línea de actuación A",
+        "identifier": "M230020126A-AJCA",
+        "description": "Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA.",
+        "funder": {
+          "@id": "https://www.comunidad.madrid/#organization"
+        },
+        "recipient": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "fundedItem": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://guia-project.github.io/research.html#navigation",
+        "name": "GUIA site navigation",
+        "itemListElement": [
+          {
+            "@type": "SiteNavigationElement",
+            "position": 1,
+            "name": "Home",
+            "url": "https://guia-project.github.io/index.html"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 2,
+            "name": "Team",
+            "url": "https://guia-project.github.io/team.html"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 3,
+            "name": "Research",
+            "url": "https://guia-project.github.io/research.html"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 4,
+            "name": "Services",
+            "url": "https://guia-project.github.io/services.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,23 +343,47 @@
 </head>
 
 <body>
-  <header class="site-header">
-    <nav class="navbar">
-      <a class="brand" href="./index.html">
-        <img src="assets/img/guia-logo.jpeg" alt="GUIA logo">
+  <header class="site-header" property="isPartOf" typeof="WebSite">
+    <meta property="name" content="GUIA">
+    <meta property="description" content="Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable">
+    <meta property="url" content="https://guia-project.github.io/">
+    <meta property="inLanguage" content="es">
+
+    <nav class="navbar" typeof="SiteNavigationElement" property="hasPart">
+      <a class="brand" href="./index.html" property="url">
+        <span property="logo" typeof="ImageObject">
+          <img src="assets/img/guia-logo.jpeg" alt="GUIA logo" property="contentUrl">
+          <meta property="name" content="GUIA logo">
+        </span>
         <span>
-          <strong>GUIA</strong>
-          <small>Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable</small>
+          <strong property="name">GUIA</strong>
+          <small property="description">Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable</small>
         </span>
       </a>
 
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
 
       <ul id="nav-menu" class="nav-menu">
-        <li><a href="./index.html" data-i18n="home">Home</a></li>
-        <li><a href="./team.html" data-i18n="team">Team</a></li>
-        <li><a class="active" href="research.html" data-i18n="research">Research</a></li>
-        <li><a href="./services.html" data-i18n="services">Services</a></li>
+        <li typeof="SiteNavigationElement">
+          <a href="./index.html" data-i18n="home" property="url">
+            <span property="name">Home</span>
+          </a>
+        </li>
+        <li typeof="SiteNavigationElement">
+          <a href="./team.html" data-i18n="team" property="url">
+            <span property="name">Team</span>
+          </a>
+        </li>
+        <li typeof="SiteNavigationElement">
+          <a class="active" href="research.html" data-i18n="research" property="url">
+            <span property="name">Research</span>
+          </a>
+        </li>
+        <li typeof="SiteNavigationElement">
+          <a href="./services.html" data-i18n="services" property="url">
+            <span property="name">Services</span>
+          </a>
+        </li>
         <li>
           <div class="lang-switch">
             <button data-lang="es" type="button">ES</button>
@@ -38,142 +392,202 @@
         </li>
       </ul>
     </nav>
+
     <style>
-    	.hero-copy {
-		  max-width: 900px;
-		}
-    	.section-title {
-		  font-family: "Source Serif 4", Georgia, serif;
-		  font-size: 2.8rem;
-		  line-height: 1.2;
-		  letter-spacing: -0.04em;
-		  max-width: 900px;
-		}
+      .hero-copy {
+        max-width: 900px;
+      }
 
-		.publications-hero {
-		  padding-top: 44px;
-		  padding-bottom: 18px;
-		}
+      .section-title {
+        font-family: "Source Serif 4", Georgia, serif;
+        font-size: 2.8rem;
+        line-height: 1.2;
+        letter-spacing: -0.04em;
+        max-width: 900px;
+      }
 
-		.publications-section {
-		  padding-top: 0;
-		}
+      .publications-hero {
+        padding-top: 44px;
+        padding-bottom: 18px;
+      }
+
+      .publications-section {
+        padding-top: 0;
+      }
     </style>
   </header>
 
-  <main>
+  <main property="mainEntity" typeof="ResearchProject" resource="https://guia-project.github.io/#guia-project">
+    <meta property="name" content="GUIA">
+    <meta property="alternateName" content="Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable">
+    <meta property="identifier" content="M230020126A-AJCA">
+    <meta property="url" content="https://guia-project.github.io/">
+    <meta property="keywords" content="documentación universitaria, datos FAIR, grafos de conocimiento, inteligencia artificial, datos semánticos, interoperabilidad, universidad">
+
     <section class="hero">
-	  <div class="hero-copy full-width">
-	    <p class="eyebrow">Research</p>
+      <div class="hero-copy full-width">
+        <p class="eyebrow" property="keywords">Research</p>
 
-	    <h1 data-i18n="researchTitle">
-	      Una hoja de ruta orientada a datos, servicios e impacto
-	    </h1>
+        <h1 data-i18n="researchTitle" property="name">
+          Una hoja de ruta orientada a datos, servicios e impacto
+        </h1>
 
-	    <p class="lead" data-i18n="researchLead">
-	      El proyecto se organiza en paquetes de trabajo que conectan análisis del dominio,
-	      infraestructura tecnológica, servicios inteligentes y transferencia.
-	    </p>
-	  </div>
-	</section>
-    <section class="section muted">
+        <p class="lead" data-i18n="researchLead" property="description">
+          El proyecto se organiza en paquetes de trabajo que conectan análisis del dominio,
+          infraestructura tecnológica, servicios inteligentes y transferencia.
+        </p>
+      </div>
+    </section>
+
+    <section class="section muted" typeof="ItemList" resource="https://guia-project.github.io/research.html#work-packages" property="hasPart">
+      <meta property="name" content="Paquetes de trabajo del proyecto GUIA">
+      <meta property="description" content="Hoja de ruta del proyecto GUIA organizada en paquetes de trabajo sobre análisis del dominio, infraestructura tecnológica, servicios inteligentes y transferencia.">
+
       <div class="timeline">
-        <article>
+        <article typeof="DefinedTerm" resource="https://guia-project.github.io/research.html#pt1" property="itemListElement">
+          <meta property="termCode" content="PT1">
+          <meta property="position" content="1">
           <span>PT1 · M01–M24</span>
-          <h3 data-i18n="pt1Title">Identificación y conceptualización de problemáticas</h3>
-          <p data-i18n="pt1Text">
+          <h3 data-i18n="pt1Title" property="name">Identificación y conceptualización de problemáticas</h3>
+          <p data-i18n="pt1Text" property="description">
             Taxonomización y conceptualización ontológica de problemas recurrentes vinculados
             a la documentación universitaria.
           </p>
         </article>
 
-        <article>
+        <article typeof="DefinedTerm" resource="https://guia-project.github.io/research.html#pt2" property="itemListElement">
+          <meta property="termCode" content="PT2">
+          <meta property="position" content="2">
           <span>PT2 · M07–M18</span>
-          <h3 data-i18n="pt2Title">Desarrollo de GUIA</h3>
-          <p data-i18n="pt2Text">
+          <h3 data-i18n="pt2Title" property="name">Desarrollo de GUIA</h3>
+          <p data-i18n="pt2Text" property="description">
             Construcción de la infraestructura de datos, API, grafo de conocimiento,
             plataforma de publicación y catálogo.
           </p>
         </article>
 
-        <article>
+        <article typeof="DefinedTerm" resource="https://guia-project.github.io/research.html#pt3" property="itemListElement">
+          <meta property="termCode" content="PT3">
+          <meta property="position" content="3">
           <span>PT3 · M16–M21</span>
-          <h3 data-i18n="pt3Title">Servicios basados en IA</h3>
-          <p data-i18n="pt3Text">
+          <h3 data-i18n="pt3Title" property="name">Servicios basados en IA</h3>
+          <p data-i18n="pt3Text" property="description">
             Demostradores para consultas en lenguaje natural, recuperación conceptual
             y reutilización de conocimiento.
           </p>
         </article>
 
-        <article>
+        <article typeof="DefinedTerm" resource="https://guia-project.github.io/research.html#pt4" property="itemListElement">
+          <meta property="termCode" content="PT4">
+          <meta property="position" content="4">
           <span>PT4 · M04–M24</span>
-          <h3 data-i18n="pt4Title">Difusión, diseminación y captación</h3>
-          <p data-i18n="pt4Text">
+          <h3 data-i18n="pt4Title" property="name">Difusión, diseminación y captación</h3>
+          <p data-i18n="pt4Text" property="description">
             Publicación de resultados, captación de universidades y consolidación de una
             comunidad colaborativa.
           </p>
         </article>
       </div>
     </section>
+
     <section class="hero publications-hero">
-	  <div class="hero-copy full-width">
-	    <!--<p class="eyebrow">Publications</p>-->
+      <div class="hero-copy full-width">
+        <h1 class="section-title" data-i18n="publicationsTitle">
+          Publicaciones científicas
+        </h1>
 
-	    <h1 class="section-title" data-i18n="publicationsTitle">
-	      Publicaciones científicas
-	    </h1>
+        <p class="lead" data-i18n="publicationsLead">
+          Producción científica vinculada a los paquetes de trabajo del proyecto GUIA.
+        </p>
+      </div>
+    </section>
 
-	    <p class="lead" data-i18n="publicationsLead">
-	      Producción científica vinculada a los paquetes de trabajo del proyecto GUIA.
-	    </p>
-	  </div>
-	</section>
+    <section class="section publications-section" typeof="ItemList" resource="https://guia-project.github.io/research.html#publications" property="subjectOf">
+      <meta property="name" content="Publicaciones científicas del proyecto GUIA">
+      <meta property="description" content="Producción científica vinculada a los paquetes de trabajo del proyecto GUIA.">
+      <div id="publications-list" class="publications-list"></div>
+    </section>
 
-	<section class="section publications-section">
-	  <div id="publications-list" class="publications-list"></div>
-	</section>
+    <div property="parentOrganization" typeof="CollegeOrUniversity">
+      <meta property="name" content="Universidad Politécnica de Madrid">
+      <meta property="alternateName" content="UPM">
+      <meta property="url" content="https://www.upm.es/">
+    </div>
 
-    
+    <div property="funder" typeof="GovernmentOrganization">
+      <meta property="name" content="Comunidad de Madrid">
+      <meta property="url" content="https://www.comunidad.madrid/">
+    </div>
+
+    <div property="funding" typeof="MonetaryGrant">
+      <meta property="name" content="Doctores Emergentes - Línea de actuación A">
+      <meta property="identifier" content="M230020126A-AJCA">
+      <meta property="description" content="Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA.">
+      <div property="funder" typeof="GovernmentOrganization">
+        <meta property="name" content="Comunidad de Madrid">
+      </div>
+      <div property="recipient" typeof="CollegeOrUniversity">
+        <meta property="name" content="Universidad Politécnica de Madrid">
+        <meta property="alternateName" content="UPM">
+      </div>
+    </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" property="publisher" typeof="CollegeOrUniversity">
+    <meta property="name" content="Universidad Politécnica de Madrid">
+    <meta property="alternateName" content="UPM">
+    <meta property="url" content="https://www.upm.es/">
+
     <div class="footer-inner">
       <div class="footer-logos">
-        <img src="assets/img/upm-logo.png" alt="Universidad Politécnica de Madrid">
-        <img src="assets/img/logo-cam.png" alt="Comunidad de Madrid">
+        <span property="logo" typeof="ImageObject">
+          <img src="assets/img/upm-logo.png" alt="Universidad Politécnica de Madrid" property="contentUrl">
+          <meta property="name" content="Universidad Politécnica de Madrid logo">
+        </span>
+
+        <span typeof="GovernmentOrganization">
+          <meta property="name" content="Comunidad de Madrid">
+          <span property="logo" typeof="ImageObject">
+            <img src="assets/img/logo-cam.png" alt="Comunidad de Madrid" property="contentUrl">
+            <meta property="name" content="Comunidad de Madrid logo">
+          </span>
+        </span>
       </div>
 
-      <p class="funding-text" data-i18n="funding_es">
+      <p class="funding-text" data-i18n="funding_es" property="description">
         Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA (M230020126A-AJCA)
       </p>
     </div>
   </footer>
 
   <script id="publications-data" type="application/json">
-  [  {
+  [
+    {
       "title": "NEXA-ACE: corrección automática de prácticas de programación mediante evaluación funcional asistida por LLM",
       "authors": "J. Gayoso-Cabada, A. Cimmino, C. Badenes-Olmedo, S. Ruiz-Villafranca",
       "venue": "XXXII Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2026)",
-      "year" : "2026",
+      "year": "2026",
       "workPackage": "PT3",
       "doi": "TBP",
       "url": "TBP",
       "pdf": "TBP",
       "bibtex": "TBP"
-    },{
+    },
+    {
       "title": "MIRA: corrección automática, revisión y gestión de reclamaciones en exámenes tipo test universitarios",
       "authors": "J. Gayoso-Cabada, C. Badenes-Olmedo, A. Cimmino, R. Mariño",
       "venue": "XXXII Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2026)",
-      "year" : "2026",
+      "year": "2026",
       "workPackage": "PT3",
       "doi": "TBP",
       "url": "TBP",
       "pdf": "TBP",
       "bibtex": "TBP"
-    },{
+    },
+    {
       "title": "Improving ODRL 2.2: current limitations and theoretical solutions",
       "authors": "A. Cimmino, N. Fornara",
-      "year" : "2025",
+      "year": "2025",
       "venue": "ODRL and Beyond: Practical Applications and Challenges for Policy-base Access and Usage Control. OPAL 2025 Co-located with the Extended Semantic Web Conference",
       "workPackage": "PT1",
       "pdf": "https://ceur-ws.org/Vol-3977/OPAL2025-6.pdf",
@@ -182,7 +596,7 @@
     {
       "title": "ODRE Policy Directory Service: A Trust-Based ODRL Service for Decentralised and Policy-Aware Ecosystems",
       "authors": "L. Martín-Núñez, A. Cimmino, R. García-Castro",
-      "year" : "2025",
+      "year": "2025",
       "venue": "ODRL and Beyond: Practical Applications and Challenges for Policy-base Access and Usage Control. OPAL 2025 Co-located with the Extended Semantic Web Conference",
       "workPackage": "PT3",
       "pdf": "https://ceur-ws.org/Vol-3977/OPAL2025-5.pdf",
@@ -190,18 +604,7 @@
     }
   ]
   </script>
- <!-- /*
-   {
-      "title": "Mock",
-      "authors": "C. Pérez, J. López",
-      "venue": "ACL Workshop on NLP Applications, 2024",
-      "workPackage": "PT3",
-      "doi": "10.0000/example-doi-3",
-      "url": "https://example.org/publication-3",
-      "pdf": "assets/papers/publication-3.pdf",
-      "bibtex": "@inproceedings{perez2024nl,title={Natural language interfaces for university knowledge graphs},author={Pérez, C. and López, J.},booktitle={ACL Workshop on NLP Applications},year={2024}}"
-    }
-    */ -->
+
   <script src="assets/js/main.js"></script>
 
   <script>
@@ -213,29 +616,56 @@
     });
   }
 
+  function slugifyPublicationTitle(title) {
+    return title
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function isValidPublicationLink(value) {
+    return value && value !== "TBP";
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("publications-list");
     const rawData = document.getElementById("publications-data").textContent;
     const publications = JSON.parse(rawData);
 
-    container.innerHTML = publications.map((pub, index) => `
-      <article class="publication">
-        <div class="pub-meta">
-          <span class="pub-tag" data-pt="${pub.workPackage}">${pub.workPackage}</span>
-        </div>
+    container.innerHTML = publications.map((pub, index) => {
+      const publicationId = `publication-${slugifyPublicationTitle(pub.title)}`;
 
-        <h3 class="pub-title">${pub.title}</h3>
-        <p class="pub-authors">${pub.year} - ${pub.authors}</p>
-        <p class="pub-venue">${pub.venue}</p>
+      return `
+        <article class="publication" typeof="ScholarlyArticle" resource="https://guia-project.github.io/research.html#${publicationId}" property="itemListElement">
+          <meta property="name" content="${pub.title.replace(/"/g, "&quot;")}">
+          <meta property="datePublished" content="${pub.year}">
+          <meta property="isPartOf" content="${pub.venue.replace(/"/g, "&quot;")}">
+          <meta property="about" content="${pub.workPackage}">
+          ${isValidPublicationLink(pub.pdf) ? `<meta property="url" content="${pub.pdf}">` : ""}
+          ${isValidPublicationLink(pub.doi) ? `<meta property="sameAs" content="https://doi.org/${pub.doi}">` : ""}
 
-        <div class="pub-links">
-          ${pub.doi ? `<a href="https://doi.org/${pub.doi}" target="_blank" rel="noopener">DOI</a>` : ""}
-          ${pub.url ? `<a href="${pub.url}" target="_blank" rel="noopener">Link</a>` : ""}
-          ${pub.pdf ? `<a href="${pub.pdf}" target="_blank" rel="noopener">PDF</a>` : ""}
-          ${pub.bibtex ? `<button type="button" class="bibtex-button" data-index="${index}">BibTeX</button>` : ""}
-        </div>
-      </article>
-    `).join("");
+          <div class="pub-meta">
+            <span class="pub-tag" data-pt="${pub.workPackage}">${pub.workPackage}</span>
+          </div>
+
+          <h3 class="pub-title" property="headline">${pub.title}</h3>
+          <p class="pub-authors">
+            <span property="datePublished">${pub.year}</span> -
+            <span property="author">${pub.authors}</span>
+          </p>
+          <p class="pub-venue" property="isPartOf">${pub.venue}</p>
+
+          <div class="pub-links">
+            ${isValidPublicationLink(pub.doi) ? `<a href="https://doi.org/${pub.doi}" target="_blank" rel="noopener">DOI</a>` : ""}
+            ${isValidPublicationLink(pub.url) ? `<a href="${pub.url}" target="_blank" rel="noopener" property="url">Link</a>` : ""}
+            ${isValidPublicationLink(pub.pdf) ? `<a href="${pub.pdf}" target="_blank" rel="noopener" property="url">PDF</a>` : ""}
+            ${pub.bibtex ? `<button type="button" class="bibtex-button" data-index="${index}">BibTeX</button>` : ""}
+          </div>
+        </article>
+      `;
+    }).join("");
 
     document.querySelectorAll(".bibtex-button").forEach(button => {
       button.addEventListener("click", () => {
@@ -244,6 +674,6 @@
       });
     });
   });
-</script>
+  </script>
 </body>
 </html>
