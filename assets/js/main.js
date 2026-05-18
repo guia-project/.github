@@ -56,7 +56,9 @@ const translations = {
 		gestorDocenteTitle: "Plataforma para cumplimentar guías docentes.",
 		gestorDocenteText: "Plataforma para cumplimentación de guias docentes, personalización con imagen corporativa y posibilidad de exportar los documentos en PDF o RDF anotados con la ontología del proyecto GUIA.",
 		cronoexamTitle: "Plataforma para creación y organización de exámenes de la UPM.",
-		cronoexamText: "Plataforma para crear y organizar los exámenes de la UPM. Cronoexam no solo permite que los responsables de de alta examenes, sino que permite visualizarlos con mapas de calor para una distribución óptima de los mismos. También permite visualizarlos y exportarlos como eventos de calendario."
+		cronoexamText: "Plataforma para crear y organizar los exámenes de la UPM. Cronoexam no solo permite que los responsables de de alta examenes, sino que permite visualizarlos con mapas de calor para una distribución óptima de los mismos. También permite visualizarlos y exportarlos como eventos de calendario.",
+		catalogoFAIRTitle: "Catálogo FAIR para guias docentes",
+		catalogoFAIRText: "Catálogo FAIR de guias docentes de la UPM para el curso 2025-26."
 	},
 	en: {
 		home: 'Home',
@@ -115,8 +117,9 @@ const translations = {
 		gestorDocenteTitle: "Platform for completing course guides.",
 		gestorDocenteText: "Platform for completing course guides, customisable with institutional branding, and with the option to export documents as PDF or RDF annotated with the GUIA project ontology.",
 		cronoexamTitle: "Platform for creating and organising UPM exams.",
-		cronoexamText: "Platform for creating and organising UPM exams. Cronoexam not only allows coordinators to register exams, but also makes it possible to visualise them using heat maps to ensure their optimal distribution. It also allows exams to be viewed and exported as calendar events."
-		
+		cronoexamText: "Platform for creating and organising UPM exams. Cronoexam not only allows coordinators to register exams, but also makes it possible to visualise them using heat maps to ensure their optimal distribution. It also allows exams to be viewed and exported as calendar events.",
+		catalogoFAIRTitle: "FAIR catalogue for course guides",
+		catalogoFAIRText: "FAIR catalogue of UPM course guides for the 2025–26 academic year."
 	}
 };
 
