@@ -1,10 +1,240 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" vocab="https://schema.org/" typeof="CollectionPage">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GUIA · Services</title>
-  <meta name="description" content="Servicios del proyecto GUIA.">
+
+  <title property="name">GUIA · Services</title>
+  <meta property="description" name="description" content="Servicios del proyecto GUIA.">
+  <meta property="inLanguage" content="es">
+  <meta property="url" content="https://guia-project.github.io/services.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://guia-project.github.io/#website",
+        "name": "GUIA",
+        "description": "Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable",
+        "url": "https://guia-project.github.io/",
+        "inLanguage": "es",
+        "publisher": {
+          "@id": "https://www.upm.es/#organization"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://guia-project.github.io/services.html#webpage",
+        "name": "GUIA · Services",
+        "description": "Servicios del proyecto GUIA.",
+        "url": "https://guia-project.github.io/services.html",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@id": "https://guia-project.github.io/#website"
+        },
+        "about": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        },
+        "mainEntity": {
+          "@id": "https://guia-project.github.io/services.html#services-catalogue"
+        }
+      },
+      {
+        "@type": "ResearchProject",
+        "@id": "https://guia-project.github.io/#guia-project",
+        "name": "GUIA",
+        "alternateName": "Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable",
+        "identifier": "M230020126A-AJCA",
+        "url": "https://guia-project.github.io/",
+        "description": "GUIA impulsa una infraestructura de datos y un ecosistema de servicios de inteligencia artificial para hacer la documentación universitaria más accesible, interoperable, estructurada y útil para estudiantes, personal técnico y responsables institucionales.",
+        "keywords": [
+          "documentación universitaria",
+          "datos FAIR",
+          "grafos de conocimiento",
+          "inteligencia artificial",
+          "datos semánticos",
+          "interoperabilidad",
+          "universidad",
+          "RDF",
+          "OWL",
+          "SPARQL"
+        ],
+        "parentOrganization": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "funder": {
+          "@id": "https://www.comunidad.madrid/#organization"
+        },
+        "funding": {
+          "@id": "https://guia-project.github.io/#grant"
+        },
+        "subjectOf": {
+          "@id": "https://guia-project.github.io/services.html#services-catalogue"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://guia-project.github.io/services.html#services-catalogue",
+        "name": "Catálogo de servicios de IA y valor añadido",
+        "description": "Servicios diseñados para explotar documentación universitaria estructurada, trazable y conectada.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://guia-project.github.io/services.html#service-question-answering"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://guia-project.github.io/services.html#service-knowledge-graph-api"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://guia-project.github.io/services.html#service-ontology"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://guia-project.github.io/services.html#service-question-answering",
+        "name": "Question Answering",
+        "description": "Consultas en lenguaje natural sobre documentación universitaria con respuestas apoyadas en evidencias.",
+        "serviceType": "Question Answering sobre documentación universitaria",
+        "url": "https://guia-rag.skai.etsisi.upm.es/",
+        "provider": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "isRelatedTo": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        },
+        "keywords": [
+          "question answering",
+          "lenguaje natural",
+          "documentación universitaria",
+          "evidencias",
+          "inteligencia artificial",
+          "PT3"
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://guia-project.github.io/services.html#service-knowledge-graph-api",
+        "name": "Grafo de conocimiento & API de documentos estructurados",
+        "description": "Expone guías docentes de manera estructurada para integraciones, automatización y reutilización en RDF. Permite explorar títulos, asignaturas, competencias y entidades académicas usando estándares del W3C.",
+        "serviceType": "Grafo de conocimiento y API de documentos estructurados",
+        "url": "https://guia-kg.skai.etsisi.upm.es/",
+        "provider": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "isRelatedTo": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        },
+        "keywords": [
+          "knowledge graph",
+          "SPARQL",
+          "RDF",
+          "ontologías",
+          "documentación universitaria",
+          "W3C",
+          "PT2"
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://guia-project.github.io/services.html#service-ontology",
+        "name": "Ontología para guías docentes",
+        "description": "Modela las guías docentes mediante axiomas OWL usando estándares del W3C.",
+        "serviceType": "Ontología para guías docentes",
+        "url": "https://w3id.org/def/guia",
+        "provider": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "isRelatedTo": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        },
+        "keywords": [
+          "ontología",
+          "OWL",
+          "RDF",
+          "guías docentes",
+          "W3C",
+          "PT2"
+        ]
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "@id": "https://www.upm.es/#organization",
+        "name": "Universidad Politécnica de Madrid",
+        "alternateName": "UPM",
+        "url": "https://www.upm.es/",
+        "logo": "https://guia-project.github.io/assets/img/upm-logo.png"
+      },
+      {
+        "@type": "GovernmentOrganization",
+        "@id": "https://www.comunidad.madrid/#organization",
+        "name": "Comunidad de Madrid",
+        "url": "https://www.comunidad.madrid/",
+        "logo": "https://guia-project.github.io/assets/img/logo-cam.png"
+      },
+      {
+        "@type": "MonetaryGrant",
+        "@id": "https://guia-project.github.io/#grant",
+        "name": "Doctores Emergentes - Línea de actuación A",
+        "identifier": "M230020126A-AJCA",
+        "description": "Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA.",
+        "funder": {
+          "@id": "https://www.comunidad.madrid/#organization"
+        },
+        "recipient": {
+          "@id": "https://www.upm.es/#organization"
+        },
+        "fundedItem": {
+          "@id": "https://guia-project.github.io/#guia-project"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://guia-project.github.io/services.html#navigation",
+        "name": "GUIA site navigation",
+        "itemListElement": [
+          {
+            "@type": "SiteNavigationElement",
+            "position": 1,
+            "name": "Home",
+            "url": "https://guia-project.github.io/index.html"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 2,
+            "name": "Team",
+            "url": "https://guia-project.github.io/team.html"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 3,
+            "name": "Research",
+            "url": "https://guia-project.github.io/research.html"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 4,
+            "name": "Services",
+            "url": "https://guia-project.github.io/services.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,23 +262,47 @@
 </head>
 
 <body>
-  <header class="site-header">
-    <nav class="navbar">
-      <a class="brand" href="./index.html">
-        <img src="assets/img/guia-logo.jpeg" alt="GUIA logo">
+  <header class="site-header" property="isPartOf" typeof="WebSite">
+    <meta property="name" content="GUIA">
+    <meta property="description" content="Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable">
+    <meta property="url" content="https://guia-project.github.io/">
+    <meta property="inLanguage" content="es">
+
+    <nav class="navbar" typeof="SiteNavigationElement" property="hasPart">
+      <a class="brand" href="./index.html" property="url">
+        <span property="logo" typeof="ImageObject">
+          <img src="assets/img/guia-logo.jpeg" alt="GUIA logo" property="contentUrl">
+          <meta property="name" content="GUIA logo">
+        </span>
         <span>
-          <strong>GUIA</strong>
-          <small>Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable</small>
+          <strong property="name">GUIA</strong>
+          <small property="description">Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable</small>
         </span>
       </a>
 
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
 
       <ul id="nav-menu" class="nav-menu">
-        <li><a href="./index.html" data-i18n="home">Home</a></li>
-        <li><a href="./team.html" data-i18n="team">Team</a></li>
-        <li><a href="./research.html" data-i18n="research">Research</a></li>
-        <li><a class="active" href="./services.html" data-i18n="services">Services</a></li>
+        <li typeof="SiteNavigationElement">
+          <a href="./index.html" data-i18n="home" property="url">
+            <span property="name">Home</span>
+          </a>
+        </li>
+        <li typeof="SiteNavigationElement">
+          <a href="./team.html" data-i18n="team" property="url">
+            <span property="name">Team</span>
+          </a>
+        </li>
+        <li typeof="SiteNavigationElement">
+          <a href="./research.html" data-i18n="research" property="url">
+            <span property="name">Research</span>
+          </a>
+        </li>
+        <li typeof="SiteNavigationElement">
+          <a class="active" href="./services.html" data-i18n="services" property="url">
+            <span property="name">Services</span>
+          </a>
+        </li>
         <li>
           <div class="lang-switch">
             <button data-lang="es" type="button">ES</button>
@@ -59,26 +313,35 @@
     </nav>
   </header>
 
-  <main>
+  <main property="about" typeof="ResearchProject" resource="https://guia-project.github.io/#guia-project">
+    <meta property="name" content="GUIA">
+    <meta property="alternateName" content="Plataforma inteligente para transformar documentación universitaria en conocimiento reutilizable">
+    <meta property="identifier" content="M230020126A-AJCA">
+    <meta property="url" content="https://guia-project.github.io/">
+    <meta property="keywords" content="documentación universitaria, datos FAIR, grafos de conocimiento, inteligencia artificial, datos semánticos, interoperabilidad, universidad, RDF, OWL, SPARQL">
+
     <section class="hero">
       <div class="hero-copy full-width">
-        <p class="eyebrow">Services</p>
+        <p class="eyebrow" property="keywords">Services</p>
 
-        <h1 data-i18n="servicesTitle">
+        <h1 data-i18n="servicesTitle" property="subjectOf">
           Catálogo de servicios de IA y valor añadido
         </h1>
 
-        <p class="lead" data-i18n="servicesLead">
+        <p class="lead" data-i18n="servicesLead" property="description">
           Servicios diseñados para explotar documentación universitaria estructurada, trazable y conectada.
         </p>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" typeof="ItemList" resource="https://guia-project.github.io/services.html#services-catalogue" property="subjectOf">
+      <meta property="name" content="Catálogo de servicios de IA y valor añadido">
+      <meta property="description" content="Servicios diseñados para explotar documentación universitaria estructurada, trazable y conectada.">
+
       <div class="section-heading split">
         <div>
           <p class="eyebrow">Catalogue</p>
-          <h2>Servicios de valor añadido</h2>
+          <h2 property="name">Servicios de valor añadido</h2>
         </div>
 
         <label class="search-label">
@@ -88,28 +351,67 @@
       </div>
 
       <div class="cards service-grid" id="service-grid">
-        <article class="card service" data-keywords="qa preguntas lenguaje natural evidencias documents pt3">
+        <article class="card service" data-keywords="qa preguntas lenguaje natural evidencias documents pt3" typeof="Service" resource="https://guia-project.github.io/services.html#service-question-answering" property="itemListElement">
+          <meta property="serviceType" content="Question Answering sobre documentación universitaria">
+          <meta property="url" content="https://guia-rag.skai.etsisi.upm.es/">
+          <meta property="keywords" content="question answering, lenguaje natural, documentación universitaria, evidencias, inteligencia artificial, PT3">
+
           <span class="service-package" data-pt="PT3">PT3</span>
-          <h3 data-i18n="qaTitle">Question Answering</h3>
-          <p data-i18n="qaText">Consultas en lenguaje natural sobre documentación universitaria con respuestas apoyadas en evidencias. (en desarrollo)</p>
-          <a href="https://guia-rag.skai.etsisi.upm.es/" data-i18n="goService">Ir al servicio →</a>
+          <h3 data-i18n="qaTitle" property="name">Question Answering</h3>
+          <p data-i18n="qaText" property="description">
+            Consultas en lenguaje natural sobre documentación universitaria con respuestas apoyadas en evidencias. (en desarrollo)
+          </p>
+          <a href="https://guia-rag.skai.etsisi.upm.es/" data-i18n="goService" property="url">
+            Ir al servicio →
+          </a>
+
+          <div property="provider" typeof="CollegeOrUniversity">
+            <meta property="name" content="Universidad Politécnica de Madrid">
+            <meta property="alternateName" content="UPM">
+            <meta property="url" content="https://www.upm.es/">
+          </div>
         </article>
 
-  
-     
+        <article class="card service" data-keywords="knowledge graph sparql ontologias grafo pt2" typeof="Service" resource="https://guia-project.github.io/services.html#service-knowledge-graph-api" property="itemListElement">
+          <meta property="serviceType" content="Grafo de conocimiento y API de documentos estructurados">
+          <meta property="url" content="https://guia-kg.skai.etsisi.upm.es/">
+          <meta property="keywords" content="knowledge graph, SPARQL, RDF, ontologías, documentación universitaria, W3C, PT2">
 
-        <article class="card service" data-keywords="knowledge graph sparql ontologias grafo pt2">
           <span class="service-package" data-pt="PT2">PT2</span>
-          <h3 data-i18n="graphTitle">Grafo de conocimiento & API de documentos estructurados</h3>
-          <p data-i18n="graphText">Expone guías docentes de manera estructurada para integraciones, automatización y reutilización en RDF. Permite explorar títulos, asignaturas, competencias y entidades académicas usando estándares del W3C.</p>
-          <a href="https://guia-kg.skai.etsisi.upm.es/" data-i18n="goService">Ir al servicio →</a>
+          <h3 data-i18n="graphTitle" property="name">Grafo de conocimiento &amp; API de documentos estructurados</h3>
+          <p data-i18n="graphText" property="description">
+            Expone guías docentes de manera estructurada para integraciones, automatización y reutilización en RDF. Permite explorar títulos, asignaturas, competencias y entidades académicas usando estándares del W3C.
+          </p>
+          <a href="https://guia-kg.skai.etsisi.upm.es/" data-i18n="goService" property="url">
+            Ir al servicio →
+          </a>
+
+          <div property="provider" typeof="CollegeOrUniversity">
+            <meta property="name" content="Universidad Politécnica de Madrid">
+            <meta property="alternateName" content="UPM">
+            <meta property="url" content="https://www.upm.es/">
+          </div>
         </article>
 
-        <article class="card service" data-keywords="ontologia grafo pt2">
+        <article class="card service" data-keywords="ontologia grafo pt2" typeof="Service" resource="https://guia-project.github.io/services.html#service-ontology" property="itemListElement">
+          <meta property="serviceType" content="Ontología para guías docentes">
+          <meta property="url" content="https://w3id.org/def/guia">
+          <meta property="keywords" content="ontología, OWL, RDF, guías docentes, W3C, PT2">
+
           <span class="service-package" data-pt="PT2">PT2</span>
-          <h3 data-i18n="graphTitle">Ontología para guías docentes.</h3>
-          <p data-i18n="graphText">Modela las guías docentes mediante axiomas OWL usando estándares del W3C.</p>
-          <a href="https://w3id.org/def/guia" data-i18n="goService">Ir al servicio →</a>
+          <h3 data-i18n="graphTitle" property="name">Ontología para guías docentes.</h3>
+          <p data-i18n="graphText" property="description">
+            Modela las guías docentes mediante axiomas OWL usando estándares del W3C.
+          </p>
+          <a href="https://w3id.org/def/guia" data-i18n="goService" property="url">
+            Ir al servicio →
+          </a>
+
+          <div property="provider" typeof="CollegeOrUniversity">
+            <meta property="name" content="Universidad Politécnica de Madrid">
+            <meta property="alternateName" content="UPM">
+            <meta property="url" content="https://www.upm.es/">
+          </div>
         </article>
       </div>
 
@@ -117,16 +419,54 @@
         No hay servicios que coincidan con la búsqueda.
       </p>
     </section>
+
+    <div property="parentOrganization" typeof="CollegeOrUniversity">
+      <meta property="name" content="Universidad Politécnica de Madrid">
+      <meta property="alternateName" content="UPM">
+      <meta property="url" content="https://www.upm.es/">
+    </div>
+
+    <div property="funder" typeof="GovernmentOrganization">
+      <meta property="name" content="Comunidad de Madrid">
+      <meta property="url" content="https://www.comunidad.madrid/">
+    </div>
+
+    <div property="funding" typeof="MonetaryGrant">
+      <meta property="name" content="Doctores Emergentes - Línea de actuación A">
+      <meta property="identifier" content="M230020126A-AJCA">
+      <meta property="description" content="Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA.">
+      <div property="funder" typeof="GovernmentOrganization">
+        <meta property="name" content="Comunidad de Madrid">
+      </div>
+      <div property="recipient" typeof="CollegeOrUniversity">
+        <meta property="name" content="Universidad Politécnica de Madrid">
+        <meta property="alternateName" content="UPM">
+      </div>
+    </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" property="publisher" typeof="CollegeOrUniversity">
+    <meta property="name" content="Universidad Politécnica de Madrid">
+    <meta property="alternateName" content="UPM">
+    <meta property="url" content="https://www.upm.es/">
+
     <div class="footer-inner">
       <div class="footer-logos">
-        <img src="assets/img/upm-logo.png" alt="Universidad Politécnica de Madrid">
-        <img src="assets/img/logo-cam.png" alt="Comunidad de Madrid">
+        <span property="logo" typeof="ImageObject">
+          <img src="assets/img/upm-logo.png" alt="Universidad Politécnica de Madrid" property="contentUrl">
+          <meta property="name" content="Universidad Politécnica de Madrid logo">
+        </span>
+
+        <span typeof="GovernmentOrganization">
+          <meta property="name" content="Comunidad de Madrid">
+          <span property="logo" typeof="ImageObject">
+            <img src="assets/img/logo-cam.png" alt="Comunidad de Madrid" property="contentUrl">
+            <meta property="name" content="Comunidad de Madrid logo">
+          </span>
+        </span>
       </div>
 
-      <p class="funding-text" data-i18n="funding_es">
+      <p class="funding-text" data-i18n="funding_es" property="description">
         Acción financiada por la Comunidad de Madrid en el marco del Convenio entre la Comunidad de Madrid y la Universidad Politécnica de Madrid para la concesión de una subvención directa para el fomento y promoción de la investigación y la transferencia de tecnología 2023-2026, Línea de actuación A, Doctores Emergentes a través del proyecto GUIA (M230020126A-AJCA)
       </p>
     </div>
