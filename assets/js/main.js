@@ -26,7 +26,7 @@ const translations = {
 		workingTeam: 'Equipo de trabajo',
 		technicalStaff: 'Personal técnico contratado del proyecto GUIA',
 		technicalStaffSpecialty: 'Especialidad pendiente de completar. Participa en tareas de desarrollo, análisis y apoyo técnico dentro del proyecto GUIA.',
-		technicalStaffPhD: 'Personal predoctoral del proyecto GUIA',
+		technicalStaffPhd: 'Personal predoctoral del proyecto GUIA',
 		technicalStaffPhdSpecialty: 'Experto en desarrollo y despliegue Web.',
 		scientificPortalProfile: 'Perfil Portal científico',
 		scholarProfile: 'Perfil Scholar',
